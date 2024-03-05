@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon LeoChatBackend/index.js"
+    "server": "nodemon LeoChatBackend/index.js",
+    "start" :"node LeoChatBackend/index.js",
+    "build":"npm install && npm install --prefix leoChatFrontEnd && npm run build --prefix leoChatFrontEnd"
   },
   "type": "module",
   "keywords": [],
